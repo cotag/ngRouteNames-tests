@@ -1,0 +1,12 @@
+{
+  "name": "ngRouteNames-tests",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular-unstable": "~1.1.5",
+    "angular-gesture": "~1.1.5",
+    "ngRouteNames": "~1.0.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.0.7"
+  }
+}

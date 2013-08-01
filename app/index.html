@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html data-ng-app="TestApp" data-ng-controller="TestAppCtrl">
+	<head>
+		<title>ngRouteNames Test App</title>
+	</head>
+
+	<body class="ng-cloak">
+		<a goto='home'>Home</a>
+		<a goto='view2'>View2</a>
+		<a goto='view3' user="steve">View3 (with user)</a>
+		<a goto='view4'>View4 - no user indicated</a>
+
+		<div goto='view3'>A non-link element used for routes</div>
+
+		<div data-ng-view id="ng-view"></div>
+
+		<!-- build:js scripts/scripts.js -->
+			<script src="components/angular-unstable/angular.js"></script>
+			<script src="components/angular-gesture/ngMobile/mobile.js"></script>
+			<script src="components/angular-gesture/ngMobile/directive/ngClick.js"></script>
+
+			<script src="components/ngRouteNames/ngRouteNames.js"></script>
+			<script src="components/ngRouteNames/directive/goto.js"></script>
+
+			<script src="scripts/app.js"></script>
+		<!-- endbuild -->
+	<body>
+</html>
