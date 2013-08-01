@@ -9,9 +9,10 @@ files = [
   JASMINE_ADAPTER,
   'app/components/angular-unstable/angular.js',
   'app/components/angular-mocks/angular-mocks.js',
-  'app/scripts/ngMobile/*.js',
-  'app/scripts/ngMobile/**/*.js',
-  'test/*.js',			// browser trigger
+  'app/scripts/*.js',
+  'app/scripts/**/*.js',
+  'test/mock/**/*.js',
+  'test/*.js',
   'test/spec/**/*.js'
 ];
 
@@ -46,7 +47,7 @@ autoWatch = false;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['Chrome'];
+browsers = ['PhantomJS'];
 
 // If browser does not capture in given timeout [ms], kill it
 captureTimeout = 5000;

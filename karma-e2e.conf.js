@@ -41,7 +41,7 @@ autoWatch = false;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['Chrome'];
+browsers = ['PhantomJS'];
 
 
 // NOTE:: Requires Gruntfile.js to have : mountFolder(connect, yeomanConfig.app)
