@@ -46,7 +46,7 @@ browsers = ['PhantomJS'];
 
 // NOTE:: Requires Gruntfile.js to have : mountFolder(connect, yeomanConfig.app)
 //		in the test -> middleware section
-proxies = { '/': 'http://localhost:9100/' };
+proxies = { '/': 'http://localhost:9000/' };
 urlRoot = '__karma';
 
 // If browser does not capture in given timeout [ms], kill it
