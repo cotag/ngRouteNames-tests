@@ -1,0 +1,7 @@
+h1. ngRouteNames Testing App
+
+- AngularJS Named Routes
+
+The primrary repository can be found at https://github.com/cotag/ngRouteNames
+This is only for running tests
+
